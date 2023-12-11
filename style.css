@@ -6,13 +6,14 @@
 
 .container {
     border: 1px solid black;
-    height: 800px;
-    width: 800px;
+    height: 600px;
+    width: 600px;
+    
 }
 
 .row {
     height: calc(100% / 12);
-    border: 1px solid black;
+    /* border: 1px solid black; */
 }
 
 .col-xs-1 {
@@ -25,5 +26,73 @@
 }
 
 .col-xs-4 {
-    border: 1px dashed black;
+    border: 1px dashed lime;
+}
+
+/* ANCHOR RIGA 1 */
+
+/* ANCHOR RIGA 2 */
+
+/* ANCHOR RIGA 3 */
+
+/* ANCHOR RIGA 4 */
+
+/* ANCHOR RIGA 5 */
+
+/* ANCHOR RIGA 6 */
+
+/* ANCHOR RIGA 7 */
+
+/* ANCHOR RIGA 8 */
+
+/* ANCHOR RIGA 9 */
+
+/* ANCHOR RIGA 10 */
+.container > .row:nth-child(10) > .col-xs-1:nth-child(2) > .row.row:nth-child(even) > .col-xs-4:last-child,
+.container > .row:nth-child(10) > .col-xs-1:nth-child(2) > .row:last-child > .col-xs-4:not(.col-xs-4:first-child),
+.container > .row:nth-child(10) > .col-xs-1:nth-child(3) > .row:not(.row:last-child) > .col-xs-4:nth-child(odd),
+.container > .row:nth-child(10) > .col-xs-1:nth-child(3) > .row:last-child,
+.container > .row:nth-child(10) > .col-xs-1:nth-child(4) > .row:not(.row:last-child) > .col-xs-4:nth-child(even),
+.container > .row:nth-child(10) > .col-xs-1:nth-child(4) > .row:last-child,
+.container > .row:nth-child(10) > .col-xs-1:nth-child(5) > .row:first-child > .col-xs-4:first-child,
+.container > .row:nth-child(10) > .col-xs-1:nth-child(5) > .row:not(.row:first-child),
+.container > .row:nth-child(10) > .col-xs-1:nth-child(6) > .row:first-child > .col-xs-4:last-child,
+.container > .row:nth-child(10) > .col-xs-1:nth-child(6) > .row:not(.row:first-child),
+.container > .row:nth-child(10) > .col-xs-1:nth-child(7),
+.container > .row:nth-child(10) > .col-xs-1:nth-child(8) > .row:not(.row:last-child) > .col-xs-4:not(.col-xs-4:last-child),
+.container > .row:nth-child(10) > .col-xs-1:nth-child(8) > .row:last-child,
+.container > .row:nth-child(10) > .col-xs-1:nth-child(9) > .row:nth-child(even) > .col-xs-4:last-child,
+.container > .row:nth-child(10) > .col-xs-1:nth-child(9) > .row:nth-child(odd),
+.container > .row:nth-child(10) > .col-xs-3 {
+    background-color: black;
+}
+
+/* ANCHOR RIGA 11 */
+.container > .row:nth-child(11) > .col-xs-1:nth-child(4) > .row:first-child > .col-xs-4:not(.col-xs-4:first-child),
+.container > .row:nth-child(11) > .col-xs-1:nth-child(5) > .row:not(.row:last-child),
+.container > .row:nth-child(11) > .col-xs-1:nth-child(5) > .row:last-child > .col-xs-4:last-child,
+.container > .row:nth-child(11) > .col-xs-1:nth-child(6),
+.container > .row:nth-child(11) > .col-xs-1:nth-child(7) > .row:not(.row:last-child),
+.container > .row:nth-child(11) > .col-xs-1:nth-child(7) > .row:last-child > .col-xs-4:not(.col-xs-4:last-child),
+.container > .row:nth-child(11) > .col-xs-1:nth-child(8) > .row:not(.row:last-child),
+.container > .row:nth-child(11) > .col-xs-1:nth-child(8) > .row:last-child > .col-xs-4:last-child,
+.container > .row:nth-child(11) > .col-xs-1:nth-child(9) > .row:not(.row:last-child),
+.container > .row:nth-child(11) > .col-xs-1:nth-child(9) > .row:last-child > .col-xs-4:not(.col-xs-4:first-child),
+.container > .row:nth-child(11) > .col-xs-2,
+.container > .row:nth-child(11) > .col-xs-1:last-of-type > .row:not(.row:last-child),
+.container > .row:nth-child(11) > .col-xs-1:last-of-type > .row:last-child > .col-xs-4:not(.col-xs-4:last-child) {
+    background-color: black;
+}
+
+/* ANCHOR RIGA 12 */
+.container > .row:last-child > .col-xs-1:nth-child(4) > .row:last-child > .col-xs-4:not(.col-xs-4:first-child),
+.container > .row:last-child > .col-xs-1:nth-child(5) > .row:first-child > .col-xs-4:last-child,
+.container > .row:last-child > .col-xs-1:nth-child(5) > .row:nth-child(even) > .col-xs-4:nth-child(even),
+.container > .row:last-child > .col-xs-1:nth-child(5) > .row:last-child > .col-xs-4:first-child,
+.container > .row:last-child > .col-xs-1:nth-child(8) > .row:first-child > .col-xs-4:last-child,
+.container > .row:last-child > .col-xs-1:nth-child(8) > .row:last-child,
+.container > .row:last-child > .col-xs-1:nth-child(9) > .row:not(.row:first-child),
+.container > .row:last-child > .col-xs-1:nth-child(9) > .row:first-child > .col-xs-4:last-child,
+.container > .row:last-child > .col-xs-3 {
+    background-color: black;
 }
